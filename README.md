@@ -47,3 +47,10 @@ fields / columns in the URL provided for the challenge.
 | month            | The Martian Month. Similarly to Earth, Martian time can be divided into 12 months. | text      |
 | min_temp         | The minimum temperature (in °C) observed during a single Martian sol.              | number    |
 | pressure         | The atmospheric pressure (Pa) in Curiosity's location on Mars.                     | number    |
+
+## Notes
+
+For the sake of cleanliness and performance, the browser objects in both parts
+of the challenge were constructed as headless browsers.  If viewing the browser
+automation is desired, please set the `HEADLESS` global to `False` instead of
+`True`.
